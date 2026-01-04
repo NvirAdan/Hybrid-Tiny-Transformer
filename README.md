@@ -1,10 +1,10 @@
-\# TINY TRANSFORMER
+# TINY TRANSFORMER
 
 
 
-\## Work in Progress
+## Work in Progress
 
 
 
-\### README of this repository will be updated once the project is finished
+### README of this repository will be updated once the project is finished
 
