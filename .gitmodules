@@ -1,0 +1,3 @@
+[submodule "minitorch"]
+	path = minitorch
+	url = https://github.com/NvirAdan/Mini-PyTorch.git
