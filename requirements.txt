@@ -1,0 +1,6 @@
+numpy
+requests
+tqdm
+pytest
+jupyter
+matplotlib
