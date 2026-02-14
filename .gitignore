@@ -1,47 +1,38 @@
-# Gitignore AI Generated(Gemini)
 
-# --- Entornos Virtuales ---
 .venv/
 env/
 venv/
 ENV/
 
-# --- Python / Caché ---
+
 __pycache__/
 *.py[cod]
 *$py.class
 .ipynb_checkpoints/
 .pytest_cache/
 
-# --- Datos y Pesos (Muy importante) ---
-# No querrás subir megabytes de texto o gigabytes de pesos
+
 data/
 datasets/
 *.txt
 *.csv
-# Si quieres mantener el input de Shakespeare, podrías ignorar solo los procesados:
-# !input.txt 
+!requirements.txt
 
-# Carpeta de salida de modelos entrenados
-checkpoints/
-weights/
+
+
+
 *.pt
 *.pth
 *.ckpt
 
-# --- Logs y Visualización ---
-logs/
-runs/
-.tensorboard/
 
-# --- Configuración del Sistema / IDE ---
+
 .DS_Store
 .vscode/
 .idea/
 *.swp
 
-# --- Minitorch Específico ---
-# Si generas visualizaciones de grafos o perfiles de rendimiento
+
 *.dot
 *.png
 *.pdf
