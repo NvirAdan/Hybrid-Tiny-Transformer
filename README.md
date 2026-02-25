@@ -21,9 +21,11 @@ In the following images you can see the progress of the training of the model at
 
 
 ![FIRST TRAIN](./assets/firsttrainingpart1.png)
+
 *First screenshot of the output cell of the training function*
 
 ![FIRST TRAIN](./assets/firsttrainingpart2.png)
+
 *Second screenshot of the output cell of the training function*
 
 
@@ -31,12 +33,14 @@ In the training time, the loss has decreased from an entropy of **4.5** (total c
 The graph show a noisy training (because of the difference of the batches) but with an overall tendency to decrease.
 
 ![Loss Curve](./assets/losscurve.png)
+
 *Raw loss curve showing a decrease in the loss of the model*
 
 
 In the next image the number of tokens generated is expanded, from a previous 30 tokens(checkpoint samplings) to a 500 tokens generation to show its ability to generate longer text after the training.
 
 ![SHOWCASE](./assets/Showcasefirsttraining1.png)
+
 *Text showcasing the model trying to predict the correct next token after the training*
 
 
