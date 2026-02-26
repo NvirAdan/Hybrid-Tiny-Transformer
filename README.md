@@ -79,7 +79,7 @@ The **Hybrid Tiny Transformer** implements an architecture that splits the data 
 - **Layer Norm**(Manual): Another Layer Norm because I wanted to see what happens if I use two and test it.
 - **Feed-Foward Network**(Minitorch): Processes the second layer norm output through non-linear transformations.
 #### Cross Entropy Loss:
-- Use of a **Custom Loss Function** to be able to process the inputs in NumPy Tensors(if the model isn't taining) and the inputs in Minitorch's Tensors(if the model is in training phase).
+- Use of a **Custom Loss Function** to be able to process the inputs in NumPy Tensors(if the model isn't training) and the inputs in Minitorch's Tensors(if the model is in training phase).
 
 ### 3. Hyperparameters 
 - **Batch size**: 4
@@ -119,7 +119,7 @@ For example this problem I remember was an error when I was getting the shape of
 
 
 Or this other problem where the broadcasting problem was inside the .backward() of the Tensor.py of the Minitorch.
-![BACKWARD ERRORS](./assets/commonerros2.png)
+![BACKWARD ERRORS](./assets/commonerrors2.png)
 *Broadcasting problems inside the backward function of the autograd engine*
 
 
